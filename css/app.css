@@ -3,9 +3,14 @@
     background: url("https://www.dropbox.com/s/wne4v76v8382jtf/terminal.gif?raw=1") no-repeat center center;
     background-size: cover;
     height: 50vh;
-    overflow: hidden; }
+    overflow: hidden;}
+.hero2 {
+    background: url("https://www.dropbox.com/s/yv2zmivtreim43w/col.jpg?raw=1") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden;}
 .hero h1 {
-    color: #fff;
+    color: #3adb76;
     text-align: center;
     position: relative;
     top: 50%;
@@ -19,7 +24,7 @@
     font-size: 1.2rem;
     padding: 4rem; }
 .menu p.slogan {
-    color: #8d9093;
+    color: #3adb76;
     font-size: 1.8rem;
     margin: 0 0 1rem; }
 .menu .links a {
@@ -114,3 +119,78 @@
     font-size: 1.5rem; }
 .logo i {
     margin-right: 0.5rem; }
+
+/* header 1 */
+.circle-bg, .quote-1, .quote-2 {
+    margin-top: -2rem;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem; }
+@media only screen and (min-width: 64.063em) {
+    .circle-bg, .quote-1, .quote-2 {
+        margin: 0 auto;
+        margin-top: 2rem;
+        height: 13rem;
+        width: 13rem; } }
+.circle-bg p, .quote-1 p, .quote-2 p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.quote-1 {
+    background: #333;
+    color: #fff;
+    z-index: 9999999;
+    position: relative; }
+@media only screen and (min-width: 64.063em) {
+    .quote-1 {
+        margin-right: 10rem; } }
+
+.quote-2 {
+    background: #F2F1EF; }
+.quote-2 p {
+    padding: 2rem; }
+/* CARDS */
+
+body {
+    background: transparent; }
+
+.website-example {
+    background: transparent;
+    padding: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+.website-example h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5rem 0; }
+@media only screen and (max-width: 64em) {
+    .website-example h3 {
+        padding-top: 1rem; } }
+.website-example h6 {
+    color: #50b2d0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0 0 0.5rem 0; }
+.website-example p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    margin: 0;
+    padding: 0.875rem 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+.website-example .button {
+    font-weight: bold;
+    color: #2BA6CB;
+    background: transparent;
+    padding-left: 0;
+    margin-bottom: 0;
+    box-shadow: none; }
+
+.row.wide {
+    max-width: rem-calc(1200); }
