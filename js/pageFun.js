@@ -1,11 +1,6 @@
 /**
  * Created by kalal on 2017-03-04.
  */
-
-function jump(target){
-    var top = document.getElementById(target).offsetTop;
-    window.scrollTo(0, top);
-}
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {

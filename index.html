@@ -9,23 +9,23 @@
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="css/app.css">
     <script src="js/vendor/modernizr.js"></script>
-    <script src="js/pageFun.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/pageFun.js"></script>
   </head>
   <body>
     <header class="hero">
       <h1>I am Alexandros Kalavitis :)</h1>
     </header>
-    <div class="menu">
+    <div id="menu" class="menu">
       <div class="row">
         <div class="small-12 columns">
           <p class="slogan">I.T. Solutions</p>
           <p class="links">
-            <a href="#">Home</a>
-            <a href="#">Portfolio</a>
+            <a href="#menu">Home</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#my-projects">My Projects</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
           </p>
         </div>
       </div>
@@ -73,10 +73,10 @@
     </article>
 
     <footer class="footer">
-      <div class="row">
+      <div id="contact" class="row">
         <div class="small-12 medium-6 medium-push-6 columns">
           <p class="logo show-for-small-only"><i class="fi-target"></i>Alexandros Kalavitis</p>
-          <form class="footer-form">
+          <form action="contact.php" method="post" class="footer-form">
             <div class="row">
               <div class="medium-9 medium-push-3 columns">
                 <label>
@@ -111,7 +111,8 @@
           </p>
           <ul class="inline-list social">
             <!--
-            <a href="#"><i class="fi-social-facebook"></i></a>-->
+            <a href="#"><i class="fi-social-facebook"></i></a>
+            -->
             <a href="https://twitter.com/KALALEXX"><i class="fi-social-twitter"></i></a>
             <a href="https://www.linkedin.com/in/alexandros-kalavitis-30a535b6/"><i class="fi-social-linkedin"></i></a>
             <a href="https://github.com/KALALEX"><i class="fi-social-github"></i></a>
